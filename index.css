@@ -76,3 +76,19 @@ main {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+#contenedorTiempo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tarjetasTiempo{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: rgba(255, 255, 255, 0.941);
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
